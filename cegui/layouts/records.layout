@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout >
+  <Window Type="DefaultWindow" Name="Hud" >
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+		
+
+	<Window Type="TaharezLook/StaticText" Name="Records/FacilNombre" >
+			<Property Name="Text" Value="Facil" />
+			<Property Name="Font" Value="DejaVuSans-30" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="VertCentred" />				
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.0,0},{0.33,0},{0.09,0}}" />
+	</Window>    
+    <Window Type="TaharezLook/StaticText" Name="Records/Facil" >
+			<Property Name="Text" Value="Pepe 00:33:33\nJose 00:10:22" />
+			<Property Name="Font" Value="DejaVuSans-15" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="TopAligned" />				
+			<Property Name="TextColours" Value="FFFF0000" />		
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.10,0},{0.33,0},{0.70,0}}" />
+	</Window>
+	
+	<Window Type="TaharezLook/StaticText" Name="Records/MedioNombre" >
+			<Property Name="Text" Value="Medio" />
+			<Property Name="Font" Value="DejaVuSans-30" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="VertCentred" />				
+			<Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.0,0},{0.66,0},{0.09,0}}" />
+	</Window>   
+	 <Window Type="TaharezLook/StaticText" Name="Records/Medio" >
+			<Property Name="Text" Value="Antonio 00:33:33\Luis 00:10:22" />
+			<Property Name="Font" Value="DejaVuSans-15" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="TopAligned" />				
+			<Property Name="TextColours" Value="FFFF0000" />		
+			<Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.10,0},{0.66,0},{0.70,0}}" />
+	</Window>
+	
+	<Window Type="TaharezLook/StaticText" Name="Records/AltoNombre" >
+			<Property Name="Text" Value="Alto" />
+			<Property Name="Font" Value="DejaVuSans-30" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="VertCentred" />				
+			<Property Name="UnifiedAreaRect" Value="{{0.67,0},{0.0,0},{0.99,0},{0.09,0}}" />
+	</Window>   
+	 <Window Type="TaharezLook/StaticText" Name="Records/Alto" >
+			<Property Name="Text" Value="Antonio 00:33:33\Luis 00:10:22" />
+			<Property Name="Font" Value="DejaVuSans-15" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />
+			<Property Name="VertFormatting" Value="TopAligned" />				
+			<Property Name="TextColours" Value="FFFF0000" />		
+			<Property Name="UnifiedAreaRect" Value="{{0.67,0},{0.10,0},{0.99,0},{0.70,0}}" />
+	</Window>
+     
+    <!-- Salir -->
+    <Window Type="TaharezLook/Button" Name="Records/Volver" >
+      <Property Name="Text" Value="Volver" />
+      <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.72,0},{0.55,0},{0.75,0}}" />
+    </Window>
+  </Window>
+</GUILayout>

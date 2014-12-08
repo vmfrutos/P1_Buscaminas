@@ -1,0 +1,552 @@
+material Inicial
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Inicial.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SeleccionadoMarcado
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SeleccionadoMarcado.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SeleccionadoBomba
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SeleccionadoBomba.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado1
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado1.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado2
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado2.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado3
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado3.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado4
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado4.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado5
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado5.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado6
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado6.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado7
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado7.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material Seleccionado8
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture Seleccionado8.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccionMarcado
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccionMarcado.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccionBomba
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccionBomba.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion1
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion1.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion2
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion2.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion3
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion3.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion4
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion4.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion5
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion5.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion6
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion6.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion7
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion7.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+material SinSeleccion8
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass
+        {
+            ambient 0.37626221776008606 1.0 0.2158605307340622 1.0
+            diffuse 0.37626221776008606 1.0 0.2158605307340622 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            texture_unit 
+            {
+                texture SinSeleccion8.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+facil;Lorena;17.8151
+facil;Lorena;25.094
+facil;Victor;25.702
+facil;yo mismo;148.792
+facil;Fernando;166.075
+medio;Lorena;244.632
+medio;Eustaquio;2564
+medio;Remilgio;3553
+medio;David;3653
+medio;Antonio;5678
+alto;Lorena;909.28
+alto;Eustaquio;25646
+alto;Remilgio;35536
+alto;David;36537
+alto;Antonio;56786

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout >
+	<Window Type="DefaultWindow" Name="Hud" >
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{0.75,0}}" />
+		
+		<Window Type="TaharezLook/StaticText" Name="Hud/Reloj" >
+			<Property Name="Text" Value="" />
+			<Property Name="Font" Value="DejaVuSans-15" />
+			<Property Name="TextColours" Value="FF00FF00" />
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.07,0}}" />
+		</Window>
+
+		<Window Type="TaharezLook/StaticText" Name="Hud/MinasRestantes" >
+			<Property Name="Text" Value="" />
+			<Property Name="Font" Value="DejaVuSans-30" />
+			<Property Name="HorzFormatting" Value="HorzCentred" />	
+			<Property Name="TextColours" Value="FFFF0000" />		
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.08,0},{1,0},{0.18,0}}" />
+		</Window>
+		
+		<Window Type="TaharezLook/StaticText" Name="Hud/MensajeFin" >
+			<Property Name="Text" Value="" />
+			<Property Name="Font" Value="DejaVuSans-8" />
+			<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+			<Property Name="VertFormatting" Value="TopAligned" />
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.19,0},{1,0},{0.25,0}}" />
+		</Window>
+	
+		<Window Type="TaharezLook/StaticText" Name="Hud/NombreUsuarioStatic" >
+			<Property Name="Text" Value="Introduzca su nombre:" />
+			<Property Name="Font" Value="DejaVuSans-8" />
+			<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+			<Property Name="VertFormatting" Value="TopAligned" />
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.26,0},{1,0},{0.35,0}}" />
+		</Window>
+		
+		<Window Type="TaharezLook/Editbox" Name="Hud/NombreUsuarioEdit" >
+			<Property Name="Text" Value="" />
+			<Property Name="Font" Value="DejaVuSans-8" />
+			<Property Name="VertFormatting" Value="TopAligned" />
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0.36,0},{1,0},{0.42,0}}" />
+		</Window>
+		
+    	<Window Type="TaharezLook/Button" Name="Hud/Salir" >
+      		<Property Name="Text" Value="Salir" />
+      		<Property Name="UnifiedAreaRect" Value="{{0,0},{0.43,0},{1,0},{0.50,0}}" />
+    	</Window>
+
+
+	</Window>
+</GUILayout>

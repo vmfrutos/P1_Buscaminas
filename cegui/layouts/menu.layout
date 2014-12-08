@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout >
+  <Window Type="TaharezLook/FrameWindow" Name="Menu" >
+
+    <Property Name="UnifiedAreaRect" Value="{{0.30,0},{0.2,0},{0.75,0},{0.60,0}}" />
+    
+    <!-- Nivel Facil -->
+    <Window Type="TaharezLook/Button" Name="Menu/Facil" >
+      <Property Name="Text" Value="Jugar en dificultad facil (8x8)" />
+      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.10,0},{0.9,0},{0.20,0}}" />
+    </Window>
+   
+    <!-- Nivel Medio -->
+    <Window Type="TaharezLook/Button" Name="Menu/Medio" >
+      <Property Name="Text" Value="Jugar en dificultad media (16x16)" />
+      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.22,0},{0.9,0},{0.32,0}}" />
+    </Window>
+    
+    <!-- Nivel Alto -->
+    <Window Type="TaharezLook/Button" Name="Menu/Alto" >
+      <Property Name="Text" Value="Jugar en dificultad alta (32x32)" />
+      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.34,0},{0.9,0},{0.44,0}}" />
+    </Window>
+    
+
+    <!-- Records -->
+    <Window Type="TaharezLook/Button" Name="Menu/Records" >
+      <Property Name="Text" Value="Records" />
+      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.46,0},{0.9,0},{0.56,0}}" />
+    </Window>
+    
+    <!-- Salir -->
+    <Window Type="TaharezLook/Button" Name="Menu/Salir" >
+      <Property Name="Text" Value="Salir" />
+      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.58,0},{0.9,0},{0.68,0}}" />
+    </Window>
+  </Window>
+</GUILayout>
