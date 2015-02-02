@@ -61,8 +61,6 @@ IntroState::exit()
 	_root->getAutoCreatedWindow()->removeAllViewports();
 
 
-
-
 }
 
 void
